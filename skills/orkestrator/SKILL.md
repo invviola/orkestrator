@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # Orkestratör
 
-İlk iş, başka bir şey yapmadan önce kullanıcıya şu karşılamayı aynen göster (ana model Fable ise ikinci satırı `Fable yönetir · Opus denetler · Sonnet tasarlar · Haiku koşturur` yap):
+İlk iş, başka bir şey yapmadan önce hangi model olduğuna bak (sistem talimatındaki model adı) ve kullanıcıya şu karşılamayı aynen göster. Ana model Fable ise ikinci satırı `Fable yönetir · Opus denetler · Sonnet tasarlar · Haiku koşturur` yap.
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -17,23 +17,13 @@ disable-model-invocation: true
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-Kullanıcı `/orkestrator` yanına bir iş yazmadıysa karşılamanın altına şu kısa talimatı aynen göster, başka bir şey ekleme ve iş gelmesini bekle:
+Karşılamanın hemen altına, kod bloğu dışında, modele göre tek satır yaz (model adını sürümüyle birlikte yaz, ör. "Opus 5.5"):
 
-```
-Nasıl kullanılır?
-  /orkestrator <ne istediğin>
-  Örnek: /orkestrator giriş sayfasına karanlık mod ekle
+- Opus ise: `Şu an ana agent olarak **<model adı>** seçili. Dilerseniz Fable'ı seçebilirsiniz.`
+- Fable ise: `Şu an ana agent olarak **<model adı>** seçili. Dilerseniz Opus'u seçebilirsiniz.`
+- Başka bir model ise: `Şu an ana agent olarak **<model adı>** seçili. Orkestratör en iyi Opus veya Fable ile çalışır.`
 
-Şef işi böler, ekibe dağıtır, dönen işi kontrol eder,
-sonunda sana kısa rapor verir.
-
-Hangi model şef olur?
-  • Ana model Opus ise  → Opus yönetir ve denetler.
-  • Ana model Fable ise → Fable yönetir, Opus denetler.
-  Ana modeli Claude Code'daki model seçiminden değiştir.
-```
-
-İş yazdıysa karşılamadan sonra doğrudan işe başla.
+Başka bir şey ekleme. Kullanıcı `/orkestrator` yanına iş yazdıysa bu satırdan sonra işe başla; yazmadıysa iş gelmesini bekle.
 
 Orkestratör sensin. İşi böl, dağıt, kontrol et. Öncelik kalitedir; tasarruf için kaliteden ödün verme.
 
