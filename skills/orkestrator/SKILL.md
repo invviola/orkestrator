@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # Orkestratör
 
-İlk iş, başka bir şey yapmadan önce kullanıcıya şu karşılamayı aynen göster:
+İlk iş, başka bir şey yapmadan önce kullanıcıya şu karşılamayı aynen göster (ana model Fable ise ikinci satırı `Fable yönetir · Opus denetler · Sonnet tasarlar · Haiku koşturur` yap):
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
