@@ -17,7 +17,7 @@
 |---|---|
 | **Opus** (ana model) | Kalite kurallarını koyar, yazılanı inceler ve onaylar. Zor kod, hata ayıklama, güvenlik, git |
 | **Sonnet** (`kod-yazici`, `test-yazici`) | Arayüz ve görsel tasarım, mevcut kalıba uyan normal kod, testler |
-| **Haiku** (`dosya-okuyucu`, `mekanik-isci`) | Uzun okumalar, düz ve uzun yazmalar, lint/test çalıştırma |
+| **Haiku** (`Explore`, `dosya-okuyucu`, `mekanik-isci`) | Uzun okumalar, düz ve uzun yazmalar, lint/test çalıştırma |
 
 Ana model **Fable** ise o genel yönetici olur, kod kalitesine Opus (`kod-inceleyici`) bakar.
 
@@ -48,6 +48,7 @@ agents/test-yazici.md         → Sonnet: test yazar
 agents/kod-inceleyici.md      → Opus: kod inceler (Fable modunda)
 agents/dosya-okuyucu.md       → Haiku: okur, özetler
 agents/mekanik-isci.md        → Haiku: lint, format, tekrarlı işler
+agents/Explore.md             → Haiku: kodda hızlı arama (Claude Code'un hazır Explore'unun yerine geçer)
 ```
 
 ---
