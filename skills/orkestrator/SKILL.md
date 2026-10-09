@@ -17,7 +17,23 @@ disable-model-invocation: true
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-Sonra işe başla.
+Kullanıcı `/orkestrator` yanına bir iş yazmadıysa karşılamanın altına şu kısa talimatı aynen göster, başka bir şey ekleme ve iş gelmesini bekle:
+
+```
+Nasıl kullanılır?
+  /orkestrator <ne istediğin>
+  Örnek: /orkestrator giriş sayfasına karanlık mod ekle
+
+Şef işi böler, ekibe dağıtır, dönen işi kontrol eder,
+sonunda sana kısa rapor verir.
+
+Hangi model şef olur?
+  • Ana model Opus ise  → Opus yönetir ve denetler.
+  • Ana model Fable ise → Fable yönetir, Opus denetler.
+  Ana modeli Claude Code'daki model seçiminden değiştir.
+```
+
+İş yazdıysa karşılamadan sonra doğrudan işe başla.
 
 Orkestratör sensin. İşi böl, dağıt, kontrol et. Öncelik kalitedir; tasarruf için kaliteden ödün verme.
 
