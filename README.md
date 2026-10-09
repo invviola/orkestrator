@@ -31,13 +31,18 @@ Kurulum, skill'i `~/.claude/skills/orkestrator/` altına, alt agent'ları `~/.cl
 
 ## Kullanım
 
-Claude Code'da:
+1. Kurduktan sonra Claude Code'u yeniden başlat.
+2. `/orkestrator` yaz, yanına ne istediğini ekle:
+   ```
+   /orkestrator giriş sayfasına karanlık mod ekle
+   ```
+3. Gerisini şef halleder: işi böler, ekibe dağıtır, dönen işi kontrol eder, sana kısa rapor verir.
 
-```
-/orkestrator giriş sayfasına karanlık mod ekle
-```
+**Hangi model şef olur?**
+- Ana model **Opus** ise → Opus yönetir ve kodu kendisi denetler.
+- Ana model **Fable** ise → Fable yönetir, Opus denetler. Aynı anda 6 modele kadar çalışır.
 
-Skill yalnız sen `/orkestrator` yazınca çalışır, kendiliğinden devreye girmez.
+Ana modeli Claude Code'daki model seçiminden değiştirebilirsin. Skill yalnız sen `/orkestrator` yazınca çalışır, kendiliğinden devreye girmez.
 
 ## İçindekiler
 

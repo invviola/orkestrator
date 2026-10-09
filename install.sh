@@ -25,7 +25,18 @@ cat <<'BANNER'
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  🎼  Orkestratör kuruldu.
-     Claude Code'da /orkestrator yazıp başlat.
+
+     Nasıl kullanılır?
+     1. Claude Code'u yeniden başlat.
+     2. /orkestrator yaz, yanına ne istediğini ekle:
+        /orkestrator giriş sayfasına karanlık mod ekle
+     3. Gerisini şef halleder: işi böler, ekibe dağıtır,
+        dönen işi kontrol eder, sana kısa rapor verir.
+
+     Hangi model şef olur?
+     • Ana model Opus ise → Opus yönetir ve denetler.
+     • Ana model Fable ise → Fable yönetir, Opus denetler.
+     Ana modeli Claude Code'daki model seçiminden değiştir.
 
      by invviola  ·  github.com/invviola/orkestrator
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
