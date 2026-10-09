@@ -24,7 +24,7 @@ done
 cat <<'BANNER'
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- 🎼  Orkestratör kuruldu.
+ 🎼  Orkestratör v1 kuruldu.
 
      Nasıl kullanılır?
      1. Claude Code'u yeniden başlat.

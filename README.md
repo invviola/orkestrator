@@ -4,7 +4,7 @@
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- 🎼  O R K E S T R A T Ö R
+ 🎼  O R K E S T R A T Ö R   v1
      Opus yönetir · Sonnet tasarlar · Haiku koşturur
 
      by invviola  ·  github.com/invviola/orkestrator

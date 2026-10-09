@@ -10,7 +10,7 @@ disable-model-invocation: true
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- 🎼  O R K E S T R A T Ö R
+ 🎼  O R K E S T R A T Ö R   v1
      Opus yönetir · Sonnet tasarlar · Haiku koşturur
 
      by invviola  ·  github.com/invviola/orkestrator
@@ -24,6 +24,8 @@ Karşılamanın hemen altına, kod bloğu dışında, modele göre tek satır ya
 - Başka bir model ise: `Şu an ana agent olarak **<model adı>** seçili. Orkestratör en iyi Opus veya Fable ile çalışır.`
 
 Başka bir şey ekleme. Kullanıcı `/orkestrator` yanına iş yazdıysa bu satırdan sonra işe başla; yazmadıysa iş gelmesini bekle.
+
+Kullanıcı aynı oturumda modeli değiştirirse skill'i yeniden çağırması gerekmez. Her cevaba başlarken hangi model olduğuna bak; model değiştiyse karşılamayı tekrar gösterme, yalnız `Ana agent artık **<model adı>**, kurallar ona göre güncellendi.` yaz ve o modelin kurallarıyla devam et.
 
 Orkestratör sensin. İşi böl, dağıt, kontrol et. Öncelik kalitedir; tasarruf için kaliteden ödün verme.
 
